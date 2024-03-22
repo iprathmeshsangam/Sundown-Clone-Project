@@ -8,10 +8,16 @@
     <link rel="shortcut icon" href="./Assets/icon.png" type="image/x-icon">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css"
+    rel="stylesheet"
+/>
 </head>
 
 <body>
     <div class="fixed-image"></div>
+    
 
     <div id="main">
         <div id="page1">
@@ -22,6 +28,9 @@
                     <h4><a href="#">Work</a></h4>
                     <h4><a href="#">Studio</a></h4>
                     <h4><a href="#">Contact</a></h4>
+                </div>
+                <div id="menu">
+                    <h3> <i class="ri-menu-3-line"></i> Menu</h3>
                 </div>
             </nav>
 
@@ -141,25 +150,67 @@
             </div>
         </div>
         <div id="page4">
-
+            <!-- Swiper -->
+            <div class="swiper mySwiper">
+                <div class="who">
+                <span class="dotred"></span><h2> Who we work with</h2>
+            </div>
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <img src="./Assets/Brands/Nike.svg" alt="Nike Images">
+                        <p>Retained Production support across retail and events in NY, CHI, LA. Creative Design, Design
+                            Management, Production/Project Management, and execution of work from concept to
+                            installation across the Country.</p>
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="./Assets/Brands/Converse.svg" alt="Converse">
+                        <p>Creative Concepting, Design, Design Management, Project Management, and execution of work
+                            from concept to installation across the Country. Cross functional communication and
+                            management of third party partners.</p>
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="./Assets/Brands/Arc’teryx.svg" alt="Arc’teryx">
+                        <p>Production and design along with install oversight and execution support for the SoHo store
+                            opening on Broadway St, New York. Also working on creative and production work for a new
+                            store opening in Glendale, California.</p>
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="./Assets/Brands/Hunter.svg" alt="Hunter">
+                        <p>Design and Production partner for Hunter Holiday 2022 Pop-in at Nordstrom 57th St, New York,
+                            including activations in Women’s, Men’s and Kid’s zones. Thirty-five (35) additional smaller
+                            take-downs in Nordstrom stores across the US. Concept design for Holiday boot customization
+                            events in stores across winter 2022.</p>
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="./Assets/Brands/MediaLink.svg" alt="MediaLink">
+                        <p>Creative, Design, and Production Partner for 2023 CES. Scope Included creation of Branding
+                            Identity, Assets, and Digital Content, Design, Production design, Production oversight and
+                            Installation of client activations for IBM, Delta, Instacart, and more.</p>
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="./Assets/Brands/AfterPay.svg" alt="Afterpay">
+                        <p>Creative, Design, and Production Partner for 2022 NY Fashion Week Pop-Up space. In
+                            Partnership with B-Reel scope including creation of Final Design, Design Assets, 3D Renders,
+                            Production design, Production/Partner oversight and creation of a two (2) story pop-up for
+                            Afterpay’s clients such as Crocs, JD Sports, Container Store, &amp; Revolve.</p>
+                    </div>
+                </div>
+            </div>
         </div>
         <div id="page5">
-
-        </div>
-        <div id="page6">
 
         </div>
 
     </div>
 
-
+    <div id="full-screen"></div>
     <div id="footer">
         <div class="fire-footer">
             <div class="fire-elem1"></div>
             <div class="fire-elem2"></div>
             <div class="fire-elem3"></div>
             <div class="fire-elem4"></div>
-            
+
         </div>
         <div id="footer-div">
             <div class="foot-nav">
@@ -181,13 +232,23 @@
             <h1>LinkedIn</h1>
         </div>
     </div>
+    
 
-
+    <!--Locomotive-->
     <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.js"></script>
+
+    <!--- Gsap-->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"
         integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg=="
         crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <!--Swiper-->
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <!-- Core Js-->
     <script src="script.js"></script>
+
 </body>
 
 </html>

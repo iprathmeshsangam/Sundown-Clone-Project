@@ -27,3 +27,15 @@ elems.forEach(e =>{
     });
 })
 
+let swiper = new Swiper(".mySwiper", {
+    slidesPerView: "auto",
+    centeredSlides: false,
+    spaceBetween: 40,
+  });
+
+let fullMenu = document.querySelector("#full-screen");
+let menu = document.querySelector("nav h3");
+menu.addEventListener("click",function(){
+    fullMenu.style.top = 0;
+});
+
